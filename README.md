@@ -1,7 +1,7 @@
 # APM Server
 APM is a sub service of Kibana dashboard. APM is an acronym of application monitoring.
 
-APM has to sub system to do monitoring for our application. They are `APM server` and `APM client`. This project intended to create boilerplate for `APM Server`.
+APM has to sub system to do monitoring for our application. They are `APM server` and `APM agent`. This project intended to create boilerplate for `APM Server`.
 
 ## Configuration
 
@@ -19,4 +19,12 @@ Easily stop the service by running
 
 ```
 docker-compose down
+```
+
+## APM Agent
+
+Install APM Agent on your application by following this tutorial
+
+```
+https://www.elastic.co/guide/en/apm/agent/index.html
 ```
